@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: myapp
-    repoURL: <Git Repository URL>
+    repoURL: https://github.com/satishkumar93/argocd-application.git
     targetRevision: HEAD
   syncPolicy:
     automated:
